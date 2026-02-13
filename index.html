@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Для тебя ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="heartsCanvas"></canvas>
+
+<section class="hero">
+  <h1 id="typewriter"></h1>
+  <button id="startBtn">Открыть ❤️</button>
+</section>
+
+<section class="letter hidden">
+  <p id="letterText"></p>
+</section>
+
+<section class="slider hidden">
+  <button id="prev">◀</button>
+  <img id="slideImage" src="photos/1.jpg">
+  <button id="next">▶</button>
+</section>
+
+<section class="quiz hidden">
+  <h2>Небольшой тест 😏</h2>
+  <p id="question"></p>
+  <div id="answers"></div>
+</section>
+
+<section class="proposal hidden">
+  <h2>Ты будешь моей Валентинкой? 💖</h2>
+  <button id="yesBtn">Да ❤️</button>
+  <button id="noBtn">Нет 🙃</button>
+</section>
+
+<section class="final hidden">
+  <h1>Я люблю тебя ❤️</h1>
+</section>
+
+<audio id="bgMusic" loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
